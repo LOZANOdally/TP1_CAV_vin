@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SFCV : Contact</title>
+</head>
+
+<body>
+<div class="div" id="entete">
+    <!--todo1-->
+    <img id="titre" src="images/logo.png"/>
+    <h1>SFCV</h1>
+    <h3>N°1 des caves à vins</h3>
+    <hr>
+</div>
+<div class="div" id="menu">
+    <!--todo2-->
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="produits.html">Produit</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+</div>
+<hr>
+<div id="contact">
+    <h2>Demande de Catalogue</h2>
+    <p>Demandez nous vite notre Catalogue gratuit! <br>
+        Il vous sera livré dans les meilleurs délais
+    </p>
+</div>
+<form action="mailto:danielruso27@gmail.com">
+
+    <div class="from">
+        <label for="civilite" name="cevilite">Civilite</label>
+        <select id="civilite">
+            <option value="1">Monsieur</option>
+            <option value="2">Madame</option>
+        </select>
+    </div>
+    <div class="from">
+        <label for="nom" name="nom">Nom</label>
+        <input type="text" id="nom">
+    </div>
+    <div class="from">
+        <label for="prenom" name="prenom">Prenom</label>
+        <input type="text" id="prenom">
+    </div>
+    <div class="from">
+        <label for="adresse" name="adresse">Adresse</label>
+        <textarea id="adresse"></textarea>
+    </div>
+    <div class="from">
+        <label for="ville" name="ville">Ville</label>
+        <input id="ville">
+        <label 
+       id="cpt" for="codepostal" name="codepostal">Code postal:</label>
+        <input id="codepostal">
+    </div>
+    <div class="from">
+        <input type="checkbox" id="code" value="newslettre">
+        <label id="news" for="code" name="newslettre">Je souhaite recevoir la newslettre - </label>
+        <label for="email" name="email">  Courriel:</label>
+        <input id="email">
+    </div>
+    <div id="send">
+    <input name="action" type="submit">
+    </div>
+</form>
+<div class="from">
+    <p>Ce site a fait l'objet d'une déclaration auprès de la Commision Nationale Informatique et Libertés (CNIL),
+        Conformément aux dispositions de la loi Informatiques et libertés du 6/01/1978, vouz disposez d'un droit de
+        modification, de rectification et d'opposition/suppression des données vous concernant, ce par simple demande
+        à : info@sfcv.com
+        N'hésitez pas à prendre contact avec l'équipe SFCV. Nous répondrons à toutes vos questions sur l'aménagement
+        de votre cave ou le choix de votre armoire à vin. Tous les conseils de professionnels pour conserver vos
+        meilleurs vins en toute sécurité pour le plaisir de les déguster en toute convivialité.
+    </p>
+    
+</div>
+<hr>
+
+<div class="div" id="pied">
+    <!--todo4-->
+    <p>© SFCV - <a href="mentions.html">Mentions légales</a></p>
+    <p>L'abus d'acool est dangereux pour la santé, à consommer avec modération</p>
+</div>
+
+</body>
+
+</html>

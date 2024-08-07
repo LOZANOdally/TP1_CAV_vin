@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SFCV : les services</title>
+</head>
+<body>
+
+  
+    <div class="div" id="entete">
+        <!--todo1-->
+        <img id="titre" src="images/logo.png" />
+        <h1>SFCV</h1>
+        <h3>N°1 des caves à vins</h3>
+        <hr>
+    </div>
+    
+    <div class="div" id="menu">
+        <!--todo2-->
+        <ul>
+            <li> <a href="index.html">Accueil</a></li>
+            <li> <a href="produits.html">Produit</a></li>
+            <li> <a href="service.html">Service</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div id="tarifs">
+    <h2>Nos tarifs</h2>
+    </div>
+        <table id="service">
+            
+                <tr>
+                    <th>Modèle</th>
+                    <th>Tarif</th>
+                </tr>
+                <tr>
+                    <td>AV 175</td>
+                    <td>Veuillez nous contacter</td>
+                </tr>
+                <tr>
+                    <td>AV 205</td>
+                    <td>Veuillez nous contacter</td>
+                </tr>
+                <tr>
+                    <td>CV 183</td>
+                    <td>Veuillez nous contacter</td>
+                </tr>    
+        </table>
+       <div id="servicebloc">
+        <h2>Notre catalogue</h2>
+       <object data="datas/catalogue.pdf[pdf]" type="application/pdf" width="200" height="100">
+        alt: <a href="datas/catalogue.pdf[pdf]">catalogue.pdf</a>
+       </object>
+        
+        <h2>Visitez la cave de Michel Rostang</h2><br>
+        <p>La cave à vin du restaurant de Michel Rostang à Paris est une des caves <br>
+        maison depuis 20 ans, nous emmène à sa decouverte.</p>
+        
+
+        <object data="data/cave-vin.mpg" type="video/mpeg" width="320" height="255">
+            <param name="src" value="data/cave-vin.mpg">
+            <param name="autoplay" value="false">
+            <param name="autoStart" value="0">
+            alt: <a href="data/cave-vin.mpg">video-cave.mpg</a>
+        </object>
+
+
+               <video width="320" height="240" controls>
+                   <source src="data/cave-vin.mp4" type="video/mp4">
+                   <source src="movie.ogg" type="video/ogg">
+                   Your browser does not support the video tag.
+               </video>
+       </div>
+       <hr>
+       <div class="div" id="pied">
+        <!--todo4-->
+        <p>© SFCV - <a href="mentions.html">Mentions légales</a></p>
+        <p>L'abus d'acool est dangereux pour la santé, à consommer avec modération</p>
+    </div>
+</body>
+</html>
